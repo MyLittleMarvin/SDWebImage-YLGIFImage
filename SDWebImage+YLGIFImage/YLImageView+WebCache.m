@@ -8,8 +8,8 @@
 
 #import "YLImageView+WebCache.h"
 #import "objc/runtime.h"
-#import <YLGIFImage.h>
-#import <UIView+WebCacheOperation.h>
+#import <YLGIFImage/YLGIFImage.h>
+#import <SDWebImage/UIView+WebCacheOperation.h>
 
 static char imageURLKey;
 

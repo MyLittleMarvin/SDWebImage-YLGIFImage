@@ -10,4 +10,6 @@ Pod::Spec.new do |s|
   s.source_files =  'SDWebImage+YLGIFImage'
   s.frameworks   = 'Foundation', 'UIKit', 'MobileCoreServices', 'ImageIO', 'CoreGraphics'
   s.requires_arc = true
+  s.dependency 'SDWebImage'
+  s.dependency 'YLGIFImage'
 end
